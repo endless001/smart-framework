@@ -44,7 +44,7 @@ public final class ReflectionUtil {
     /**
      * 设置成员变量的值
      */
-    public  static  void SetField(Object obj,Field field,Object value){
+    public  static  void setField(Object obj,Field field,Object value){
         try{
             field.setAccessible(true);
             field.set(obj,value);
