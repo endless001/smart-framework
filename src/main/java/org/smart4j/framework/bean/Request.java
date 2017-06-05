@@ -1,5 +1,5 @@
 package org.smart4j.framework.bean;
 
 
-public class request {
+public class Request {
 }
