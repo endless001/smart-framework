@@ -2,7 +2,6 @@ package org.smart4j.framework;
 
 
 
-import org.apache.commons.lang3.StringUtils;
 import org.smart4j.framework.bean.Data;
 import org.smart4j.framework.bean.Handler;
 import org.smart4j.framework.bean.Param;
