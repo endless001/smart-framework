@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 请求转发器
+ * 请求转发器 核心类
  */
 @WebServlet(urlPatterns = "/*",loadOnStartup = 0)
 public class DispatcherServlet extends HttpServlet {
