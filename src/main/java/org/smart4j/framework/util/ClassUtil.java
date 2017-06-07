@@ -91,7 +91,7 @@ public final class ClassUtil {
             if(file.isFile()){
                 String className=fileName.substring(0,fileName.lastIndexOf("."));
                 if(StringUtil.isNotEmpty(packageName)){
-                    className=packageName+"0"+className;
+                    className=packageName+"."+className;
                 }
                 doAddClass(classSet,className);
             }else {

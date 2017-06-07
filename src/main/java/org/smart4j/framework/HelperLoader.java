@@ -20,7 +20,7 @@ public final class HelperLoader {
                 ControllerHelper.class
         };
         for(Class<?> cls:classList){
-            ClassUtil.loadCalss(cls.getName(),true);
+            ClassUtil.loadCalss(cls.getName(),false);
         }
     }
 }
