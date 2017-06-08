@@ -40,7 +40,7 @@ public final class ControllerHelper {
                             /**
                              * 验证Url映射规则
                              */
-                            if(mapping.matches("\\w+/\\w*")){
+                            if(mapping.matches("\\w+:/\\w*")){
                                 String[] array=mapping.split(":");
                                 if(ArrayUtil.isNotEmpty(array)&&array.length==2){
                                     //获取请求方法与请求路径
