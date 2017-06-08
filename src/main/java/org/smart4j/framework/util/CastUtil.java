@@ -1,7 +1,7 @@
 package org.smart4j.framework.util;
 
 
-import com.sun.deploy.util.StringUtils;
+
 
 public final class CastUtil {
 
